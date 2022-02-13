@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+.fs_app
+{
+  padding: 10px 15px 0;
+  margin-top:50px;
+  float: left;
+  margin-left: 50px;
+}
+
+.fs_price_body
+{
+  padding-top: 20px;
+}
+
+.heading
+{
+  font-size: 15px;
+  font-weight:bold;
+  text-transform: uppercase;
+  color:black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.buttons
+{
+  display:flex;
+  justify-content: space-between;
+  position: absolute;
+  space:50px;
+  gap:1rem
+}
+
+.btn
+{
+  width:70px;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #ff286c;
+  border-radius: 2px;
+  padding: 3px;
+  color:#ff286c;
+  font-size:14px;
+  font-weight: 300 !important;
+  margin-top: 15px;
+  margin-bottom:20px;
+  cursor: pointer;
+}
+
+.btn:hover
+{
+  background: #ff286c;
+  color:#fff;
+}
+
+.line1
+{
+  margin-top: 60px;
+  width: 15em;
+  background:black;
+  border: 1px solid #d4d4d4;
+}
+
+.types, .marks
+{
+  margin-top: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.types li, .marks li
+{
+  margin-bottom: 18px;
+  font-size: 15px;
+  font-weight: 400;
+  color:black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.line2
+{
+  margin-top: 10px;
+  width: 15em;
+  background:black;
+  border: 1px solid #d4d4d4;
+}
+
+.select
+{
+  float: right;
+}

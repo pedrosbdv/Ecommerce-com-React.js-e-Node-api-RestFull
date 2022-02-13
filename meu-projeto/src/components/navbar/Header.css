@@ -1,0 +1,164 @@
+span
+{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+span:hover
+{
+  opacity: 0.7;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #23232e;
+  height: 8vh;
+}
+
+.nav-list
+{
+  list-style: none;
+  display: flex;
+  position: absolute;
+}
+
+.nav-list li
+{
+  letter-spacing: 3px;
+  margin-left: 32px;
+  cursor: pointer;
+}
+/*cursor pointer será substituido por router para criar links*/
+
+/*Cart shopping and cart side-bar*/
+.cart-buy
+{
+  margin-left: 90em;
+  cursor: pointer;
+  list-style: none;
+  color:white;
+}
+
+.cart-buy li
+{
+  font-size: 20px;
+}
+
+.cart-buy li:hover
+{
+  opacity: 0.7;
+}
+
+.cart_count
+{
+  position: absolute;
+  right: 90px;
+  top:40px;
+  padding: 3px 7px;
+  border-radius: 50px;
+  background: #f05454;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/*Cart side-bar*/
+.sidebar
+{
+  width: 429px;
+  background: #011627;
+  position: absolute;
+  height: 103vh;
+  padding: 0 30px;
+  transition: all 1s;
+  margin-left:77.1em;
+  visibility: hidden;
+}
+
+
+.sidebar.active
+{
+  visibility: visible;
+}
+
+.sidebar ul
+{
+  padding: 0;
+}
+
+.sidebar ul li
+{
+  list-style-type: none;
+
+}
+
+.sidebar ul li a
+{
+  color:#eaecef;
+  text-decoration:none;
+  font-size:16px;
+  display: block;
+  padding: 10px;
+  border-radius: 6px;
+  margin-left: -30px;
+}
+
+.title_sidebar
+{
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  color:white;
+}
+
+.teste
+{
+  position: absolute;
+  top:50%;
+  left:25%;
+}
+
+.row
+{
+  display: flex;
+  justify-content: space-between;
+  color:white;
+  padding-top: 30px;
+}
+
+.col-2
+{
+  flex:2;
+}
+
+.add
+{
+    font-size:10px;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem #404040 solid ;
+    background-color: #40c0f0;
+    width: 1.5rem;
+    height: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.remove
+{
+  font-size:10px;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #404040 solid ;
+  background-color: #f04040;
+  width: 1.5rem;
+  height: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
